@@ -46,9 +46,6 @@ export default function Home() {
     const currentDate = new Date();
     let data=localStorage.getItem(`top-headlines-${category}`);
     data=JSON.parse(data);
-    // console.log(data.hour);
-    // console.log(data.date);
-    // console.log(data.data);
     const day = String(currentDate.getDate()).padStart(2, '0');
     const hours = String(currentDate.getHours()).padStart(2, '0');
     if(data && data.hour===hours && data.date===day){
