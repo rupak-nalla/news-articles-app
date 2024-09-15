@@ -14,9 +14,11 @@ This project is a Next.js application designed to display news articles. It fetc
     use `cd news-articles`
 3. **Install Dependencies**
   Ensure you have Node.js installed. Then, install the required dependencies: `npm install`
+
 4.**Run the Development Server**
    Start the development server to see the application in action: `npm run dev`
    Open your browser and navigate to http://localhost:3000 to view the application.
+   
 5.**Build and Export for Production**
    To build the project for production:`npm run build`
 
